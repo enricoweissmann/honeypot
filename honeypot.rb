@@ -3,7 +3,7 @@ require 'socket'
 PORT = 8080
 server = TCPServer.new('0.0.0.0', PORT)
 puts "=========================================================="
-puts "🤖 HONEYPOT PERSISTENTE - Escutando na porta #{PORT}..."
+puts "🤖 HONEYPOT ATIVO - Escutando na porta #{PORT}..."
 puts "=========================================================="
 
 loop do
